@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+}
+
+#box {
+    height: 560px;
+    width: 396px;
+    background-image: url(images/Frame\ 1.svg);
+    background-repeat: no-repeat;
+    background-color: #0D1019;
+    background-size: contain;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+#icon {
+    margin-left: 20px;
+}
+
+#info {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#block {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: #1D212C;
+    box-sizing: border-box;
+    width: auto;
+}
+
+#check {
+    width: 10px;
+    margin-left: 5px;
+}
+
+#selected {
+    margin-left: 10px;
+}
+
+#block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
+    width: auto;
+}
+
+#block3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #0D1019;
+    justify-content: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
+    width: auto;
+}
+
+#rank {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#mastery {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#repairtime {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+p1 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 100%;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 80%;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    line-height: 80%;
+}
+
+h3 {
+    color: #F6CF75;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    line-height: 50%;
+}
